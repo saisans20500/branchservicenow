@@ -2,6 +2,8 @@
     <element label="Branch Test" max_length="40" name="x_sclo_branches_fo_branch_test" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Branch Test" max_length="40" name="branch_test" type="string"/>
         <element label="Branch test 2" max_length="100" name="branch_test_2" type="string"/>
+        <element label="Created Branch" max_length="100" name="created_branch" type="string"/>
+        <element label="Created Branch 2" max_length="40" name="created_branch_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>
